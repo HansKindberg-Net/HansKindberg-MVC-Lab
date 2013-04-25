@@ -1,0 +1,10 @@
+﻿@using HansKindberg.Web.Mvc.LabApplication.Models;
+@model HomeViewModel
+@{ this.ViewBag.Title = "Home"; }
+@section MainContent
+{
+	<h2>this.Html.GetValueFromDependency()</h2>
+	<p>@this.Html.GetValueFromDependency()</p>
+	<h2>this.Html.TextBox("Test", "TextBox from System.Web.Mvc.HtmlHelper")</h2>
+	<p>@this.Html.TextBox("Test", "TextBox from System.Web.Mvc.HtmlHelper")</p>
+}

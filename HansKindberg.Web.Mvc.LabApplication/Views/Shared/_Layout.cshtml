@@ -1,0 +1,16 @@
+﻿@using HansKindberg.Web.Mvc.LabApplication.Models;
+@model ViewModel
+<!DOCTYPE html>
+<html lang="@this.Model.Culture.Name">
+	<head>
+		<title>@this.ViewBag.Title</title>
+		<meta charset="utf-8">
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	</head>
+	<body>
+		<h1>@this.ViewBag.Title</h1>
+		@this.RenderSection("MainContent", false)
+	</body>
+</html>
